@@ -1,6 +1,6 @@
 Google Takeout Metadata Date
 
-This script is designed to merge the 'phototimetaken' and 'creationtime' fields from .json metadata files with their corresponding image or video files.
+This script is designed to merge the 'phototimetaken' and 'creationtime' fields from .json metadata files with their corresponding image or video files. It is important to note that this script only adds the 'phototimetaken' and 'creationtime' fields from the metadata and does not modify any other attributes of the files.
 
 I recently changed cloud providers and decided to stop using Google Photos. When I downloaded all my pictures through Google Takeout (takeout.google.com), I noticed that the photos and videos were separated from their metadata. It was important for me to retain the original 'phototimetaken' and 'creationtime' values. Manually merging these files would have taken far too long, so I decided to automate the process. Since I have no prior coding experience, I relied entirely on ChatGPT to generate the script.
 
