@@ -11,4 +11,4 @@ When finished a pop up window will appear.
 All the files who have a corresponding .json file will be in the 'combined_files' folder, all the metadata will be in the 'metadata_only' folder and all the files who dont have a corresponging .json file will be in the 'no_metadata' folder.
 All the original zip files are still there.
 
-I hope that his can help some people.
+I hope that this can help some people, if so I feel free to sent me an E-Mail to my public GitHub E-Mail: githubpublic.outpost377@passmail.net.
