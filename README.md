@@ -1,14 +1,11 @@
-# Google-Takeout-Metadata
-This code is only merging the 'phototimetaken' and 'creatontime'from the .json files to their image/video counterpart.
+Google Takeout Metadata Date
 
-I recently changed cloud provider and got rid of google photos. When downloading all my pictures from google takeout 'takeout.google.com' all the pictures came seperate metadata. It was important for me to have the original 'phototimetaken' and 'creatontime'. Merging these files by hand would have taken too long so I wanted to do it with code.
-Sice I have no experience in coding I used ChatGPT for 100% of the code.
+This script is designed to merge the 'phototimetaken' and 'creationtime' fields from .json metadata files with their corresponding image or video files.
 
-What happens when you execute this script:
-First it promts you to choose all of the zip files that you want to have merged. Then it prompts you to choose a output folder. In this folder 3 seperate folders will be created: 'metadata_only', 'combined_files', 'no_metadata'.
-After selecting the output folder the zip files are being unziped. This may take some time and no status bar will show. As soon as the zip files are unziped the dates will be merged. In the terminal it will show every file it goes through.
-When finished a pop up window will appear.
-All the files who have a corresponding .json file will be in the 'combined_files' folder, all the metadata will be in the 'metadata_only' folder and all the files who dont have a corresponging .json file will be in the 'no_metadata' folder.
-All the original zip files are still there.
+I recently changed cloud providers and decided to stop using Google Photos. When I downloaded all my pictures through Google Takeout (takeout.google.com), I noticed that the photos and videos were separated from their metadata. It was important for me to retain the original 'phototimetaken' and 'creationtime' values. Manually merging these files would have taken far too long, so I decided to automate the process. Since I have no prior coding experience, I relied entirely on ChatGPT to generate the script.
 
-I hope that this can help some people, if so I feel free to sent me an E-Mail to my public GitHub E-Mail: githubpublic.outpost377@passmail.net.
+When you run the script, it first prompts you to select the .zip files from Google Takeout that you want to process. Next, it asks you to choose an output folder. Within this folder, the script creates three separate subfolders: metadata_only, combined_files, and no_metadata. Once the output folder is selected, the script unzips the chosen .zip files. This step may take some time, and no progress bar will be displayed. After the files are unzipped, the metadata merging process begins, and the terminal will display the name of each file as it is processed. When the process is complete, a pop-up window will appear to indicate that the operation is finished.
+
+The files with corresponding .json metadata are placed in the combined_files folder. Metadata files themselves are stored in the metadata_only folder, and files without matching metadata are placed in the no_metadata folder. The original .zip files remain untouched and exactly as they were.
+
+I hope this script can be helpful to others. If it does help you or if you have any questions, feel free to email me at my public GitHub email address: githubpublic.outpost377@passmail.net.
